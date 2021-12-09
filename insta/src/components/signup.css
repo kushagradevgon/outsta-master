@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Rubik:wght@300&display=swap');
+.logo{
+    /* font-family: 'Sacramento', cursive;
+    font-size: 60px; */
+    text-align: center;
+    margin-bottom: 5px;    
+    margin-top: 30px;
+}
+.txth{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 300px;
+    color: grey;
+    font-size: medium;
+}
+.sigm{
+    display: grid;
+}
+
+.sigm input[type=text],
+input[type=password],
+input[type=email]{
+    padding: 10px;
+    margin: 6px;
+    width: 300px;
+}
+
+.sigm button{
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.sigm button:hover{
+    background-color:#0095f6;
+}
+.signup_form{
+    background-color: white;
+   width: 35%;
+    margin: auto;    
+    margin-top: 20px; 
+    border-style: solid;
+    border-color:rgb(204, 203, 203);
+    border-width: 1px;
+    display: grid;
+    place-items: center; 
+    margin-bottom: 10px;
+}
+.signup_for{
+    background-color: white;
+   width: 35%;
+    margin: auto;    
+    border-style: solid;
+    border-color:rgb(204, 203, 203);
+    border-width: 1px;
+    display: grid;
+    place-items: center; 
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Rubik', sans-serif;
+}
+.sigm a{
+       
+    text-decoration: none;
+    color: blue;
+}

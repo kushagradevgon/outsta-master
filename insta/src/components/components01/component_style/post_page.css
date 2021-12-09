@@ -1,0 +1,85 @@
+.postbody{
+    /* background-color: black; */
+    height: 100%;
+}
+.reddit{
+    margin-left:2%;
+} 
+
+.posttop{
+    height:50px;
+    width: 100%;
+    background-color: white;
+    border: 1px;
+    border-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.searchpost input{
+    margin-top: 11px;
+    /* margin-left: ; */
+    background-image: url(https://image.flaticon.com/icons/png/512/711/711319.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    text-indent: 45%;
+    height: 27px;
+    width: 100%;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-width: 1px;
+    background-position-y: 8px;
+    background-position-x: 20px;
+    border-color: #c0bdba;
+    border-style: solid;
+}
+.searchpost{
+    width: 100%;
+    /* margin-left: auto; */
+    margin-left: 10%;
+    margin-right: 10%
+}
+.login_post{
+    margin-top: 7px;
+}
+.Signup_post{
+    margin-top: 7px;
+}
+.login_post button {
+    background-color: white;
+    color: #0095f6;
+    padding: 4px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: #0095f6;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    width: 60px;
+    height: 29px;
+}
+.Signup_post button{
+    background-color: white;
+    color: #0095f6;
+    padding: 4px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: #0095f6;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    width: 60px;
+    height: 29px;
+}
+.postbutton{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    margin-left: auto;
+}
+.post_text{
+    border:1px solid green;
+    width:50%;
+    margin: auto;
+    margin-top: 2%;
+}

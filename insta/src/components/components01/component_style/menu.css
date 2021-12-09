@@ -1,0 +1,16 @@
+.icon{
+    padding-left: 16px;
+    position: relative;
+}
+.menu{
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 15px;
+    width:15%;
+}
+@media  only screen and (max-width:700px) {
+    
+    .menu{
+        margin-left: 30%;
+    }
+}

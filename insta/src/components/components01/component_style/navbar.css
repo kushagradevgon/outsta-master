@@ -1,0 +1,101 @@
+.logout_btn button{
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    margin: 6px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.logout_btn{
+    margin-left: 86%;
+    margin-top: 16px;
+}
+.logout_btn button:hover{
+    cursor: pointer;
+    /* background-color:#0095f6; */
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 75px;
+    background-color: white;
+    border-style: solid;
+    border-color: #cac8c5;;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    position: fixed;
+    margin-top: none;
+}
+.written_logo {
+    margin-left: 12%;
+    margin-top: 30px;
+    position: fixed;
+}
+.searchLogo img{
+    height: 28px;
+    width: 30px;
+    margin-top: 27px;
+}
+.searchLogo{
+    margin-left: 39%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+
+}
+
+/* .menu{
+    margin-left: 17%;    margin-top: 15px;
+    width:100%
+} */
+/* .search input[type=text]{
+    margin-top: 30px;
+    background-image: url('https://image.flaticon.com/icons/png/512/711/711319.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    text-indent: 37%;
+    height:20px;
+    width: 200px;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-width: 1px;
+    background-position-y: 2px;
+    background-position-x: 20px;
+} */
+.search input[type=text] {
+    margin-top: 30px;
+    background-image: url(https://image.flaticon.com/icons/png/512/711/711319.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    text-indent: 39%;
+    height: 20px;
+    width: 200px;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border-width: 1px;
+    background-position-y: 7px;
+    background-position-x: 63px;
+    border-color: #cac8c5;
+    border-style: solid;
+}
+.search input[type=text]:focus{
+  outline: none;
+}
+@media  only screen and (max-width:850px) {
+    .searchLogo{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }    
+}
